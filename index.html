@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Curso Assembly</title>
     <style>
         body {
@@ -35,9 +37,17 @@
         }
 
         .download-section {
-            background-color: #ffffff;
+            background-color: #c7c7c7;
             padding: 10px;
             border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -47,19 +57,23 @@
     <h1>Aprendendo a Linguagem Assembly</h1>
     <p>Bem-vindo ao Curso. O melhor curso explicativo sobre Assembly.</p>
 
-    <img src="1.webp" alt="Descrição da Imagem 1">
-    <img src="2.webp" alt="Descrição da Imagem 2">
+    <div class="image-container">
+        <img src="1.webp" alt="Descrição da Imagem 1">
+        <img src="2.webp" alt="Descrição da Imagem 2">
+    </div>
+
+    <h1><a href="index2.html">Inscreva-se no Curso</a></h1>
 
     <h1>Mais informações em:</h1>
     <p><a href="https://mentebinaria.gitbook.io/assembly/" target="_blank">Introdução</a></p>
     <p><a href="https://mentebinaria.gitbook.io/assembly/aprofundando-em-assembly/entendendo-sse/instrucoes-logicas-e-de-comparacao" target="_blank">Instruções lógicas e de comparação</a></p>
 
     <div class="download-section">
-        <h1>Baixe e assista off-line</h1>
+        <h2>Baixe e assista off-line</h2>
         <a href="assembly.pdf" download>Baixar Documento PDF</a>
     </div>
 
-    <h1><a href="index2.html">Inscreva-se no Curso</a></h1>
+    
 
 </body>
 
